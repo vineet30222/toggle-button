@@ -1,0 +1,46 @@
+#nav
+{
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+#outer
+{
+	border: 1px solid black;
+	width: 80px;
+	height: 25px;
+	box-sizing: border-box;
+	position: relative;
+	top: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-radius: 20px;
+	margin-bottom: 150px;
+
+	
+}
+
+#inner
+{
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	box-sizing: border-box;
+}
+
+#rest
+{
+	width: 90vw;
+	height: auto;
+	display: flex;
+	justify-content: center;
+
+}
